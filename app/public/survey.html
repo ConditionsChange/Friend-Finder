@@ -1,0 +1,238 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Friend Finder - Survey</title>
+
+<!-- bootstrap.css, bootstrap.js, jquery, google fonts -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+
+<!-- extra styling -->
+<style>
+* {
+	font-family: 'Merriweather', serif;
+}
+
+.jumbotron{
+	background-color:#911514;
+	color: white;
+	text-align: center;
+}
+
+.list-of-friends{
+	color: white;
+}
+
+</style>
+
+</head>
+<body>
+
+	<div class="container container-fluid">
+
+		<div>
+			<h1 class="jumbotron">Survey Questions</h1>
+		<div>
+
+		<h3><strong>About You</strong></h3>
+		<h4>Name (Required)</h4>
+		<input type="text" id="name" class="form form-control">
+
+		<h4>Link to Profile Picture (Required)</h4>
+		<input type="text" id="photo" class="form form-control">
+
+		<h3><strong>Answer all questions before submitting:</strong></h3>	
+		<h6><strong>1 = Strongly Disagree, 5 = Strongly Agree</strong></h6>	
+		<br>
+
+		<h3><strong>Question 1</strong></h3>
+		<h4>You find it difficult to introduce yourself to new people.</h4>
+        <form>
+            <input type="radio" name="group" val=1> 1
+            <input type="radio" name="group" val=2> 2
+            <input type="radio" name="group" val=3> 3
+            <input type="radio" name="group" val=4> 4
+            <input type="radio" name="group" val=5> 5    
+        </form>
+
+		<h3><strong>Question 2</strong></h3>
+		<h4>You are an organized person. You keep your home and work environment clean and free of clutter.</h4>
+        <form>
+            <input type="radio" name="group" val=1> 1
+            <input type="radio" name="group" val=2> 2
+            <input type="radio" name="group" val=3> 3
+            <input type="radio" name="group" val=4> 4
+            <input type="radio" name="group" val=5> 5     
+        </form>
+
+
+		<h3><strong>Question 3</strong></h3>
+		<h4>You perform at your peak potential when you are under pressure.</h4>
+        <form>
+            <input type="radio" name="group" val=1> 1
+            <input type="radio" name="group" val=2> 2
+            <input type="radio" name="group" val=3> 3
+            <input type="radio" name="group" val=4> 4
+            <input type="radio" name="group" val=5> 5      
+        </form>
+
+
+		<h3><strong>Question 4</strong></h3>
+		<h4>You enjoy having a wide array of acquantainces.</h4>
+        <form>
+            <input type="radio" name="group" val=1> 1
+            <input type="radio" name="group" val=2> 2
+            <input type="radio" name="group" val=3> 3
+            <input type="radio" name="group" val=4> 4
+            <input type="radio" name="group" val=5> 5         
+        </form>
+
+
+		<h3><strong>Question 5</strong></h3>
+		<h4>You often think about humankind and the meaning of life.</h4>
+        <form>
+            <input type="radio" name="group" val=1> 1
+            <input type="radio" name="group" val=2> 2
+            <input type="radio" name="group" val=3> 3
+            <input type="radio" name="group" val=4> 4
+            <input type="radio" name="group" val=5> 5    
+        </form>
+
+
+		<h3><strong>Question 6</strong></h3>
+		<h4>You prefer to act immediately rather than ponder about various options.</h4>
+        <form>
+            <input type="radio" name="group" val=1> 1
+            <input type="radio" name="group" val=2> 2
+            <input type="radio" name="group" val=3> 3
+            <input type="radio" name="group" val=4> 4
+            <input type="radio" name="group" val=5> 5      
+        </form>
+
+
+		<h3><strong>Question 7</strong></h3>
+		<h4>You find it easy to speak your mind and convey what you truly feel.</h4>
+        <form>
+            <input type="radio" name="group" val=1> 1
+            <input type="radio" name="group" val=2> 2
+            <input type="radio" name="group" val=3> 3
+            <input type="radio" name="group" val=4> 4
+            <input type="radio" name="group" val=5> 5      
+        </form>
+
+		<h3><strong>Question 8</strong></h3>
+		<h4>You rather work alone than with a group.</h4>
+        <form>
+            <input type="radio" name="group" val=1> 1
+            <input type="radio" name="group" val=2> 2
+            <input type="radio" name="group" val=3> 3
+            <input type="radio" name="group" val=4> 4
+            <input type="radio" name="group" val=5> 5      
+        </form>
+
+		<h3><strong>Question 9</strong></h3>
+		<h4>You want to try something new everyday rather than sticking to the norm.</h4>
+        <form>
+            <input type="radio" name="group" val=1> 1
+            <input type="radio" name="group" val=2> 2
+            <input type="radio" name="group" val=3> 3
+            <input type="radio" name="group" val=4> 4
+            <input type="radio" name="group" val=5> 5     
+        </form>
+
+		<h3><strong>Question 10</strong></h3>
+		<h4>You prefer quiet environment rather than a bustling atmosphere.</h4>
+        <form>
+            <input type="radio" name="group" val=1> 1
+            <input type="radio" name="group" val=2> 2
+            <input type="radio" name="group" val=3> 3
+            <input type="radio" name="group" val=4> 4
+            <input type="radio" name="group" val=5> 5    
+        </form>
+
+		<br>
+		<br>
+
+		<div class="footer">
+			<button type="button" class="btn btn-success submit"><h4>Submit</h4></button>
+			<a href="/api/friends">
+				<button type="button" class="btn btn-danger list-of-friends"><h4>API Friend List</h4></button>
+			</a>	
+		</div>
+		<br>
+
+	<!-- modal -->
+	<div id="modal" class="modal fade">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal">&times;</button>
+	        <h2 class="modal-title"><strong>Best Match</strong></h2>
+	      </div>
+	      <div class="modal-body">
+	        <h2 id="matchedName"></h2>
+	        <img id="matchedImg" src="" alt="">
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	      </div>
+	    </div>
+
+	  </div>
+	</div>
+
+
+<!-- javascript logic: post request and displaying best match in modal	 -->
+  <script type="text/javascript">
+
+	//check to see if all forms and radio buttons are filled out
+	$(".submit").on("click",function(){
+		event.preventDefault();
+		var radioCount = 0;
+		$("input[type='radio']:checked").each(function(){
+			radioCount++;
+		});
+		if (radioCount === 10 && $("#photo").val() != "" && $("#name").val() != ""){ //if all forms are filled out
+			var scores = [];
+			console.log("You have successfully submitted your info");
+				$("input[type='radio']:checked").each(function(){
+					scores.push($(this).attr("val")); //push the user's responses into the scores array
+				});
+			var name = $("#name").val();
+			var photo = $("#photo").val();
+
+			var information = { //build up the post
+				"name": name,
+				"photo": photo,
+				"scores": scores
+			};
+
+			console.log(information)
+
+			// ajax post
+			  $.post("/api/friends", information)
+				.done(function(matchedFriend) {
+					console.log(matchedFriend);
+					$("#matchedName").html(matchedFriend.name);
+					$('#matchedImg').attr("src", matchedFriend.photo);
+
+					// toggle the modal to show the matched friend
+					$("#modal").modal('toggle');
+				});
+
+		}
+		else{
+			alert("Please fill out all fields before submitting.");
+		}
+	})
+
+
+  </script>
+
+</body>
+</html>
